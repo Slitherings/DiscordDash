@@ -1,0 +1,15 @@
+<link rel="stylesheet" href="/styles/index.css">
+<script src="/scripts/keyAuth.js"></script>
+<div class="auth-container container is-max-widescreen mainContainer">
+    <div class="notification authContainer">
+    <div>  
+        <img class="discordAva" src="https://cdn.discordapp.com/avatars/<%= discordId %>/<%= avatar %>">
+        <h1 class="discordUser"><%= username %></h1>
+        <h1 class="activateKey">Activate Your License.</h1>
+    </div class="activateKey">  
+      <input class="input is-large keyInput" type="text" placeholder="License Key">
+        <form action="/dashboard/settings">
+            <button class="button is-large is-fullwidth activateButton">Activate</button>
+        </form>
+    </div>
+</div>

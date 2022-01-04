@@ -1,0 +1,100 @@
+.my-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.custom-button {
+    width: 350px;
+}
+.custom-button2 {
+    margin-top: 15px;
+}
+.custom-img {
+    max-height: 150;
+}
+.authContainer {
+    height: 400px;
+    text-align: -webkit-center;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    background-color: darkslategrey;
+    opacity: 75%;
+}
+.mainContainer {
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+.navMain {
+    margin-top: 50px;
+}
+.keyInput {
+    text-align: center;
+    margin-top: 20px;
+}
+.activateButton {
+    margin-top: 20px
+}
+.logoutBtn {
+    background-color: transparent;
+    color: white;
+    border-color: transparent;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 24px;
+    font-variant: all-small-caps;
+}
+.discordAva {
+    border-radius: 50%;
+}
+.activateKey{
+    color: white;
+}
+.discordUser {
+    font-size: 36px;
+    font-weight: bolder;
+    color: white;
+}
+.bottom-nav {
+    position: absolute;
+    bottom: 0;
+    float: none;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.logoutCenter {
+    margin-top: 15px;
+}
+.auth-container {
+    box-shadow: 10px 5px 5px cadetblue;
+    
+}
+.settings-hero{
+    opacity: 85%;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+}
+form{
+    margin-top: 15px;
+}
+.setting-container {
+    margin-top: 15px;
+    height: 600px;
+    box-shadow: 10px 5px 5px cadetblue;
+    opacity: 75%;
+}
+.setting-info {
+    height: 100%;
+}
+.title {
+    color: white;
+}
+
+.subtitle {
+    color: white;
+}
+.devFont {
+    color: white;   
+}
